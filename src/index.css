@@ -1,0 +1,34 @@
+/* Google Fonts MUST be first */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Space Grotesk', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #030014;
+    color: white;
+  }
+}
+
+/* Dark theme CSS variables */
+:root {
+  --background: 240 20% 5%;
+  --foreground: 0 0% 98%;
+  --primary: 262 83% 58%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 240 10% 15%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 240 10% 12%;
+  --muted-foreground: 240 5% 65%;
+  --accent: 240 10% 15%;
+  --accent-foreground: 0 0% 98%;
+  --border: 240 10% 15%;
+  --input: 240 10% 15%;
+  --ring: 262 83% 58%;
+  --radius: 0.5rem;
+}
